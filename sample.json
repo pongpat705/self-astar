@@ -1,0 +1,153 @@
+{
+    
+    "stations" : ["A","B","C","D","E","F","G","H","I","Z"],
+    "nodeList" : [
+        {
+            "key" : "A",
+            "link" : [
+                {
+                    "from" : "A",
+                    "to" : "B",
+                    "cost" : 1
+                },
+                {
+                    "from" : "A",
+                    "to" : "F",
+                    "cost" : 4
+                }
+            ]
+        },
+        {
+            "key" : "B",
+            "link" : [
+                {
+                    "from" : "B",
+                    "to" : "A",
+                    "cost" : 1
+                },
+                {
+                    "from" : "B",
+                    "to" : "C",
+                    "cost" : 1
+                }
+            ]
+        },
+        {
+            "key" : "C",
+            "link" : [
+                {
+                    "from" : "C",
+                    "to" : "B",
+                    "cost" : 1
+                },
+                {
+                    "from" : "C",
+                    "to" : "D",
+                    "cost" : 1
+                }
+            ]
+        },
+        {
+            "key" : "D",
+            "link" : [
+                {
+                    "from" : "D",
+                    "to" : "C",
+                    "cost" : 1
+                },
+                {
+                    "from" : "D",
+                    "to" : "E",
+                    "cost" : 1
+                }
+            ]
+        },
+        {
+            "key" : "E",
+            "link" : [
+                {
+                    "from" : "E",
+                    "to" : "D",
+                    "cost" : 1
+                },
+                {
+                    "from" : "E",
+                    "to" : "Z",
+                    "cost" : 3
+                },
+                {
+                    "from" : "E",
+                    "to" : "H",
+                    "cost" : 3
+                }
+            ]
+        },
+        {
+            "key" : "F",
+            "link" : [
+                {
+                    "from" : "F",
+                    "to" : "A",
+                    "cost" : 4
+                },
+                {
+                    "from" : "F",
+                    "to" : "G",
+                    "cost" : 1
+                },
+                {
+                    "from" : "F",
+                    "to" : "I",
+                    "cost" : 1
+                }
+            ]
+        },
+        {
+            "key" : "G",
+            "link" : [
+                {
+                    "from" : "G",
+                    "to" : "F",
+                    "cost" : 1
+                },
+                {
+                    "from" : "G",
+                    "to" : "H",
+                    "cost" : 1
+                }
+            ]
+        },
+        {
+            "key" : "H",
+            "link" : [
+                {
+                    "from" : "H",
+                    "to" : "G",
+                    "cost" : 1
+                },
+                {
+                    "from" : "H",
+                    "to" : "E",
+                    "cost" : 3
+                }
+            ]
+        },
+        {
+            "key" : "I",
+            "link" : [
+                {
+                    "from" : "I",
+                    "to" : "F",
+                    "cost" : 1
+                },
+                {
+                    "from" : "I",
+                    "to" : "Z",
+                    "cost" : 6
+                }
+            ]
+        }
+    ]
+    
+
+}
